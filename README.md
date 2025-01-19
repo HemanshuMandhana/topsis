@@ -83,15 +83,3 @@ The output CSV file will contain the following columns:
 
 - `Score`: The computed score indicating the proximity to the ideal solution.
 - `Rank`: The rank based on the score.
-
-## Error Handling
-
-- **File Not Found**: If the input file does not exist, a `FileNotFoundError` is raised.
-- **Invalid Weights or Impacts**: If the number of weights does not match the number of impacts, or if the impacts contain invalid values, a `ValueError` will be raised.
-- **General Errors**: Any other issues during execution will be caught and displayed as an error message.
-
-## License
-
-This program is open-source and released under the MIT License. Feel free to use and modify it for your needs.
-
----
